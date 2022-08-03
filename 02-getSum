@@ -1,0 +1,10 @@
+const obj = {};
+obj.setSum = function(sum){
+    obj.sum = sum;
+};
+obj.add = function(num){
+    obj.sum = obj.sum + num;
+};
+obj.getSum = function(){
+    return obj.sum;
+}
