@@ -1,0 +1,8 @@
+const obj = {};
+obj.addName = function(name){
+  
+    obj.name =name;
+};
+obj.getName = function() {
+    return obj.name;
+};
