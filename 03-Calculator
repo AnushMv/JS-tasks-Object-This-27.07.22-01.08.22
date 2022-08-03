@@ -1,0 +1,24 @@
+function Calculator(n){
+    this.result = n;
+    this.plus = function(num){
+        this.result = this.result + num;
+        return this.result;
+    };
+    
+   this.minus = function(num){
+        this.result = this.result - num;
+        return this.result;
+    };
+    this.multiply = function(num){
+        this.result = this.result * num;
+        return this.result;
+    };
+    this.divide = function(num){
+        this.result = this.result / num;
+        return this.result;
+    };
+    this.getResult = function(){
+        return this.result;
+    }
+    
+}
