@@ -1,0 +1,37 @@
+function ProfileInfo(user){
+    this.user = user;
+    this.setUserName = function(name){
+        user.name = name;
+    };
+    this.getUseName = function(){
+        return user.name;
+    };
+     this.setEmail = function(email){
+        user.email = email;
+    };
+    this.getEmail = function(){
+        return user.email;
+    };
+     this.setAddress = function(address){
+        user.address = address;
+    };
+    this.getaddress = function(){
+        return user.address;
+    };
+}
+function User(){
+let user = {};    
+     this.setName = function(name){
+        user.name = name;
+    };
+    this.getName = function(){
+        return user.name;
+    };
+     this.setAge = function(age){
+        user.age = age;
+    };
+    this.getAge = function(){
+        return user.age;
+    };
+     
+}
